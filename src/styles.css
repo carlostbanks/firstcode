@@ -1,0 +1,16 @@
+#theTitle {
+    color: blue;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.author {
+    background-color: yellow;
+}
+
+/* if there's no . or #... then it is an HTML element */
+/* if there is a # in front... then it is an ID */
+/* if there is a . in front... then it is a class */

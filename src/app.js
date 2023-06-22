@@ -40,3 +40,62 @@ let locationh2 = document.getElementById("location")
 locationh2.innerHTML = "I live in Miami now."
 
 console.log(locationh2)
+
+//////////
+
+// CREATE A FUNCTION
+// is a piece of code, that can run over and over and over again when called upon
+// EVERY function has a parenthesis ()
+
+// this is an ANONYMOUS function --- the parenthis is empty ()
+function hello() {
+    console.log("This is the hello function")
+}
+
+// we are the calling the function here
+hello();
+
+//////////
+
+// function with a PARAMETER
+function saywhat(word) {
+    console.log("The word you typed is: ", word)
+}
+
+saywhat(6585778);
+saywhat("Hello Carlos");
+saywhat({name: "Carlos", age: 30});
+
+////////////
+
+let count = 0;
+
+function counter() {
+    count = count + 1
+    console.log("The button was clicked: ", count)
+    let number = document.getElementById("count")
+    number.innerHTML = count
+}
+
+// console.log("This count is: ", count)
+// counter();
+// counter();
+// counter();
+// counter();
+// counter();
+// console.log("This is the count again: ", count)
+
+////// In JavaScript there are EVENTS that we can listen to
+///// what are some events? Click, a scroll, a hover, a type a key, etc
+
+//// FIRST STEP: identify what you want to target
+// let button = document.getElementById("button")
+// console.log(button)
+
+//// STEP 2: Add a function to the "OnClick" event
+// button.onclick = counter;
+// console.log(count)
+
+/////
+
+
